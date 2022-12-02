@@ -1,0 +1,129 @@
+html {
+    overflow-x: hidden !important
+}
+
+body {
+    overflow-x: hidden !important
+}
+
+.title {
+    color: rgb(54, 214, 138);
+    font-family: Kanit
+}
+
+.pub {
+    background: rgb(54, 214, 138);
+    background: linear-gradient(90deg, rgba(54, 214, 138, 1) 0%, rgba(145, 230, 202, 1) 23%, rgba(20, 240, 171, 1) 56%, rgba(105, 226, 182, 1) 100%);
+}
+
+.store-badge {
+    width: 40%;
+}
+
+.forbes {
+    width: 40%;
+}
+
+i {
+    font-size: 60px;
+    color: rgb(54, 214, 138);
+}
+
+.social {
+    background-color: rgb(54, 214, 138);
+}
+
+.subscribe {
+    background-color: rgb(54, 214, 138);
+    color: #fff;
+}
+
+iframe {
+    width: 100%;
+    height: 20vw;
+    border-radius: 10px;
+}
+
+.faq-btn {
+    color: #fff;
+    background-color: rgb(54, 214, 138);
+}
+
+.faq-btn:focus,
+.faq-btn:active,
+.faq-btn:checked {
+    color: #fff;
+    background-color: rgba(54, 214, 138, 0.9);
+}
+
+
+
+@media screen and (min-width: 557px) and (max-width: 768px) {
+    .store-badge {
+        width: 35%;
+    }
+
+    .forbes {
+        width: 35%;
+    }
+
+    i {
+        font-size: 60px
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .store-badge {
+        width: 30%;
+    }
+
+    .forbes {
+        width: 30%;
+    }
+
+    i {
+        font-size: 60px
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .store-badge {
+        width: 30%;
+    }
+
+    .forbes {
+        width: 20%;
+    }
+
+    i {
+        font-size: 60px
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .store-badge {
+        width: 30%;
+    }
+
+    .forbes {
+        width: 15%;
+    }
+
+    i {
+        font-size: 60px
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .store-badge {
+        width: 25%;
+    }
+
+    .forbes {
+        width: 15%;
+    }
+
+    i {
+        font-size: 60px
+    }
+}
